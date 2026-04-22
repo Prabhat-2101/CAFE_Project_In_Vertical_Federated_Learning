@@ -1,0 +1,13 @@
+dataset: "MNIST"
+fraction_fit: 1.0
+local_epochs: 1
+batch_size: 256
+optimizer: "SGD"
+lr: 0.01
+momentum: 0.9
+loss: "CrossEntropyLoss"
+seed: 42
+
+experiments:
+  clients: [2]
+  alphas: ["1.0"]
