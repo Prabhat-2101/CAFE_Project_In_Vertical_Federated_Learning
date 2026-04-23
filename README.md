@@ -17,6 +17,10 @@ pip install -r requirements.txt
 ```bash
 python run_experiments.py
 ```
+### 4. Plot the results
+```bash
+python src/plot_results.py
+```
 
 ## Troubleshooting (If you encounter ImportError: Unable to import module `ray`)
 ### 1. Install Python 3.11 (If not installed)
