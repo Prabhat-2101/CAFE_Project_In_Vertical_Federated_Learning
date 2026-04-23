@@ -23,7 +23,7 @@ def generate_plots():
     plt.legend()
     plt.grid(True)
     plt.savefig('results/plots/convergence_vs_alpha.png')
-    plt.savefig('results/plots/convergence_vs_alpha.pdf')
+    # plt.savefig('results/plots/convergence_vs_alpha.pdf')
     plt.close()
 
     # Plot 2: Final Accuracy vs Alpha
@@ -37,7 +37,7 @@ def generate_plots():
     plt.legend()
     plt.grid(True)
     plt.savefig('results/plots/accuracy_vs_alpha.png')
-    plt.savefig('results/plots/accuracy_vs_alpha.pdf')
+    # plt.savefig('results/plots/accuracy_vs_alpha.pdf')
     plt.close()
 
     # Plot 3: Communication Cost vs Clients (Bar Plot)
@@ -49,7 +49,7 @@ def generate_plots():
     plt.ylabel('Communication Cost (MB)')
     plt.grid(axis='y')
     plt.savefig('results/plots/comm_cost.png')
-    plt.savefig('results/plots/comm_cost.pdf')
+    # plt.savefig('results/plots/comm_cost.pdf')
     plt.close()
 
     # Plot 4: Accuracy Curves for all Histories
@@ -68,7 +68,7 @@ def generate_plots():
     plt.tight_layout()
     plt.grid(True)
     plt.savefig('results/plots/accuracy_curves.png')
-    plt.savefig('results/plots/accuracy_curves.pdf')
+    # plt.savefig('results/plots/accuracy_curves.pdf')
     plt.close()
 
     print("All plots generated successfully in results/plots/.")
